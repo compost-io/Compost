@@ -34,12 +34,16 @@ const Landing = props => {
         color: 'whitesmoke',
       }}
     >
+
+      {/* <h1>Let's Go Camping</h1>
       <h1>Let's Go Camping</h1>
+
       <Link to="/camp">
         <Button size="large" variant="contained" color="primary">
           Find Camps
         </Button>
-      </Link>
+      </Link> */}
+
       {favsheader}
       {favs}
     </div>
