@@ -28,7 +28,7 @@ router.post(
   postController.getPageUnique,
   postController.postUpdate,
   postController.postNew,
-  (req, res) => res.json('dfdfdjfdjfdj'),
+  (req, res) => res.json('success'),
 );
 
 //route delete requests to /api/users/ here
